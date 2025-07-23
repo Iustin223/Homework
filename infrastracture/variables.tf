@@ -20,10 +20,9 @@ variable "vm_name" {
   type = string
 }
 
-#variable "vm_password" {
-#  default = "Password1234!"
-#  type = string
-#}
+variable "vm_password" {
+  type = string
+}
 
 variable "vm_count" {
   default = 2
