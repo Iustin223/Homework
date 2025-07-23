@@ -28,14 +28,14 @@ jobs:
       - uses: hashicorp/setup-terraform@v3
         name : Setup Terraform
 
-        name : Terraform fist init
-        run : |
+      -  name : Terraform fist init
+         run : |
           cd infrastracture
           terraform init
 
 
-        name : Terraform fist plan
-        run : |
+      -  name : Terraform fist plan
+         run : |
           cd infrastracture
           terraform plan
 
