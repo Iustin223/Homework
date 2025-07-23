@@ -5,9 +5,9 @@ resource "azurerm_linux_virtual_machine" "main" {
   resource_group_name = azurerm_resource_group.rg.name
   size                = "Standard_B1s"
   admin_username      = var.vm_name
-  admin_password      = var.vm_password
+  #admin_password      = var.vm_password
   
-  # Enable password authentication
+
   disable_password_authentication = false
 
   network_interface_ids = [
