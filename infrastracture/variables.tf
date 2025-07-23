@@ -16,10 +16,12 @@
 #
 
 variable "vm_name" {
+  default = "iustinghitan"
   type = string
 }
 
 variable "vm_password" {
+  default = "Password1234!"
   type = string
 }
 
