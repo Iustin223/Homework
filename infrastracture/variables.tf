@@ -26,4 +26,4 @@ variable "vm_name" {
 
 variable "vm_count" {
   default = 2
-}
+}  
