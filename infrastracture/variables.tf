@@ -20,11 +20,11 @@ variable "vm_name" {
   type = string
 }
 
-variable "vm_password" {
-  sensitive = true
-  type = string
-}
-
+#variable "vm_password" {
+#  sensitive = true
+#  type = string
+#}
+#
 variable "vm_count" {
   default = 2
 }  
